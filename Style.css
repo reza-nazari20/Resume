@@ -1,0 +1,110 @@
+﻿body {
+    background-image: url(whiteBack.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center; 
+    } 
+#darkmod{
+    height: 40px;
+    width: 60px;
+    margin-left: 630px;
+    border-radius: 50px;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+    filter: invert(1) hue-rotate(180deg);
+      background-image: url('whiteBack.jpg');
+      background:fixed;
+    }
+  }
+  .dark-mode {
+    background-image: url(./darkBack.jpg)!important;
+    
+  }
+  .dark-table{
+    background-color: rgb(92, 88, 88);
+  }
+   .dark-h1{
+    background-color:rgb(92,88,88) ;
+    color: rgb(174, 179, 174);
+   } 
+   .dark-button{
+    background-color: rgb(92, 88, 88);
+   }
+   .dark-input{
+    background-color: rgb(92, 88, 88);
+    color: rgb(174, 179, 174);
+   }
+   .dark-select{
+    background-color: rgb(92, 88, 88);
+    color: rgb(174, 179, 174);
+   }
+
+h1 {
+    text-align: center;
+    background-color: gainsboro;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: IranNastaliq;
+    border-radius: 15px;
+    border: 15px;
+    border-color: cornflowerblue;
+}
+
+#userimage {
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+table {
+    text-align: center;
+    background-color: gainsboro;
+    border: 50px;
+    border-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+label {
+    background-color: cornflowerblue;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#send {
+    font-size: x-large;
+    margin-left: 500px;
+    /* margin-right: 150px; */
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(142, 252, 32);
+    border-radius: 10px;
+}
+
+#reset {
+    font-size: large;
+    margin-left: 500px;
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(255, 33, 33);
+    border-radius: 10px;
+}
+/* پیج نتیجه نهایی*/
+#result{
+    width: 500px;
+    height: auto;
+}
+#Sresult{
+    border-radius: 4px;
+}
